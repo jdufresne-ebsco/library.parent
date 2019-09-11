@@ -12,5 +12,10 @@ def call() {
     )
 
     stepFromChild()
+
+    lock ('timski') {
+
+        stepFromChild()
+    }
 }
 
