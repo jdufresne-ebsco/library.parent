@@ -11,5 +11,7 @@ def call() {
     stepFromChildOther()
 
     stepFromChild()
+
+    // this fails
     stepFromChild()
 }
