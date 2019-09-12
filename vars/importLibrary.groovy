@@ -3,7 +3,7 @@ def call() {
     library(
         identifier: "child@master",
         retriever: modernSCM(
-            github(credentialsId: 'github-shared-secret', repoOwner: 'skinitimski', repository: 'library.child')
+            github(credentialsId: 'secret', repoOwner: 'skinitimski', repository: 'library.child')
         )
     )
 }
