@@ -12,7 +12,8 @@ def call() {
 
     stage ('timski') {
 
-        // this breaks
+        stepFromChild()
+
         stepFromChild()
     }
 
