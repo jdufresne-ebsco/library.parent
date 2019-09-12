@@ -7,8 +7,8 @@ def call() {
         )
     )
 
-    // works fine
-    //stepFromChild()
+    stepFromChild()
+    stepFromChild()
 
     stage ('timski') {
 
