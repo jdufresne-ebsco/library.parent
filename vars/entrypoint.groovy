@@ -13,6 +13,21 @@ def call() {
 
     stepFromChild()
 
+    stage ('timski') {
+
+        stepFromChild()
+    }
+
+    node {
+
+        stepFromChild()
+    }
+
+    retry (3) {
+
+        stepFromChild()
+    }
+
     lock ('timski') {
 
         stepFromChild()
