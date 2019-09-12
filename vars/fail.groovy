@@ -10,8 +10,6 @@ def call() {
     stepFromChildOther()
     stepFromChildOther()
 
-    stepFromChild()
-
-    // this fails
+    // this fails when it tries to call stepFromChildOther a second time
     stepFromChild()
 }
