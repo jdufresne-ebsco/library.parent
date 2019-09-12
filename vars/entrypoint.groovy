@@ -16,6 +16,8 @@ def call() {
         stepFromChild()
     }
 
+    stepFromChild()
+
     node {
 
         stepFromChild()
