@@ -7,6 +7,9 @@ def call() {
         )
     )
 
+    stepFromChildOther()
+    stepFromChildOther()
+
     stepFromChild()
     stepFromChild()
 }
