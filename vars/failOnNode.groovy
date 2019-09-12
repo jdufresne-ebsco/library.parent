@@ -1,7 +1,5 @@
 def call() {
 
-    importLibrary()
-
     node {
 
         // fails

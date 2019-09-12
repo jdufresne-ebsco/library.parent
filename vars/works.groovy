@@ -1,7 +1,5 @@
 def call() {
 
-    importLibrary()
-
     // works fine
     stepFromChild()
 
