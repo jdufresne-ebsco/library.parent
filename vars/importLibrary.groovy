@@ -1,10 +1,13 @@
 def call() {
 
     library(
-        identifier: "child@master",
-        retriever: modernSCM(
-            github(credentialsId: env.SECRET_ID, repoOwner: 'skinitimski', repository: 'library.child')
-        )
+        identifier: 'child@master',
+        retriever: 
+            modernSCM([
+                $class: 'GitSCMSource', 
+                credentialsId: 'eis-af-jenkins', 
+                remote: 'https://github.com/skinitimski/library.child.git' 
+            ])
     )
 }
 
