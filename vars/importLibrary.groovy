@@ -6,8 +6,7 @@ def call() {
             modernSCM([
                 $class: 'GitSCMSource', 
                 credentialsId: 'eis-af-jenkins', 
-                remote: 'https://github.com/skinitimski/library.child.git' 
+                remote: 'https://github.com/jdufresne-ebsco/library.child.git' 
             ])
     )
 }
-
