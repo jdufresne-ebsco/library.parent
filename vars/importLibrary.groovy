@@ -1,7 +1,7 @@
 def call() {
 
     library(
-        identifier: 'child@master',
+        identifier: 'child@feature/no-args',
         retriever: 
             modernSCM([
                 $class: 'GitSCMSource', 
